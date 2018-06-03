@@ -7,8 +7,8 @@ This project demonstrates a simple Python API with unit, integration and end-to-
 1. **Installing:**
 
    ```bash
-   python3 -m pip install -r requirements.txt
-   ...
+   python3 -m pip install -q -r requirements.txt
+   ```
 
 2. **Testing:**
 
@@ -17,4 +17,4 @@ This project demonstrates a simple Python API with unit, integration and end-to-
    python3 -m pytest tests/unit
    python3 -m pytest tests/integration
    python3 -m pytest tests/end2end
-   ...
+   ```
